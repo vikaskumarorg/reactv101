@@ -1,0 +1,34 @@
+<svg width="260" height="72" viewBox="0 0 260 72" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background (optional) -->
+  <rect width="260" height="72" rx="10" fill="#0B1220"></rect>
+
+  <!-- Icon -->
+  <g transform="translate(10,8)">
+    <!-- Angular Shield -->
+    <polygon points="22,0 44,9 39,34 22,44 5,34 0,9" fill="#B91C1C"></polygon>
+
+    <!-- Inner Layer -->
+    <polygon points="22,6 36,12 32,30 22,36 12,30 8,12" fill="#111827"></polygon>
+
+    <!-- React Orbit -->
+    <ellipse cx="22" cy="22" rx="10" ry="3.8" stroke="#60A5FA" stroke-width="1.2" fill="none"></ellipse>
+    <ellipse cx="22" cy="22" rx="10" ry="3.8" stroke="#60A5FA" stroke-width="1.2" fill="none" transform="rotate(60 22 22)"></ellipse>
+
+    <!-- JS Core -->
+    <circle cx="22" cy="22" r="2.5" fill="#FACC15"></circle>
+  </g>
+
+  <!-- Text -->
+  <text x="70" y="26" font-size="16" font-weight="700" fill="#E5E7EB" font-family="Inter, Arial, Helvetica, sans-serif">
+    Vikas Kumar
+  </text>
+
+  <text x="70" y="42" font-size="11.5" fill="#9CA3AF" font-family="Inter, Arial, Helvetica, sans-serif">
+    Frontend Developer
+  </text>
+
+  <text x="70" y="58" font-size="11" fill="#60A5FA" font-family="Inter, Arial, Helvetica, sans-serif">
+    Angular · React · JavaScript
+  </text>
+</svg>

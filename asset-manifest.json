@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/reactv101/static/css/main.e298bdf7.css",
-    "main.js": "/reactv101/static/js/main.d0613da7.js",
+    "main.js": "/reactv101/static/js/main.bea2467e.js",
     "static/js/453.afd538ee.chunk.js": "/reactv101/static/js/453.afd538ee.chunk.js",
-    "static/media/vikas-logo.svg": "/reactv101/static/media/vikas-logo.4a310ea405ad8ed4dfd91d9ffa0b940b.svg",
+    "static/media/vikas-logo.svg": "/reactv101/static/media/vikas-logo.e80b86c93627409db0903506dbfba1ac.svg",
     "index.html": "/reactv101/index.html",
     "main.e298bdf7.css.map": "/reactv101/static/css/main.e298bdf7.css.map",
-    "main.d0613da7.js.map": "/reactv101/static/js/main.d0613da7.js.map",
+    "main.bea2467e.js.map": "/reactv101/static/js/main.bea2467e.js.map",
     "453.afd538ee.chunk.js.map": "/reactv101/static/js/453.afd538ee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e298bdf7.css",
-    "static/js/main.d0613da7.js"
+    "static/js/main.bea2467e.js"
   ]
 }
