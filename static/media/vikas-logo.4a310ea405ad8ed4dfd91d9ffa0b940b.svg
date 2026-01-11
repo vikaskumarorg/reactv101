@@ -1,0 +1,30 @@
+<svg width="380" height="130" viewBox="0 0 380 130" xmlns="http://www.w3.org/2000/svg">
+  <rect width="380" height="130" rx="14" fill="#0B1220"></rect>
+
+  <!-- Angular Shield Geometry -->
+  <g transform="translate(24,22)">
+    <!-- Outer Shield -->
+    <polygon points="40,0 80,16 70,70 40,88 10,70 0,16" fill="#B91C1C"></polygon>
+
+    <!-- Inner Shield -->
+    <polygon points="40,10 66,22 58,64 40,76 22,64 14,22" fill="#111827"></polygon>
+
+    <!-- React Orbit -->
+    <ellipse cx="40" cy="44" rx="18" ry="7" stroke="#60A5FA" stroke-width="1.8" fill="none"></ellipse>
+    <ellipse cx="40" cy="44" rx="18" ry="7" stroke="#60A5FA" stroke-width="1.8" fill="none" transform="rotate(60 40 44)"></ellipse>
+    <ellipse cx="40" cy="44" rx="18" ry="7" stroke="#60A5FA" stroke-width="1.8" fill="none" transform="rotate(120 40 44)"></ellipse>
+
+    <!-- JS Core Dot -->
+    <circle cx="40" cy="44" r="4.2" fill="#FACC15"></circle>
+  </g>
+
+  <!-- Name -->
+  <text x="130" y="60" font-size="26" font-weight="700" fill="#E5E7EB" font-family="Inter, Arial, Helvetica, sans-serif">
+    Vikas Kumar
+  </text>
+
+  <!-- Role -->
+  <text x="130" y="88" font-size="14.5" fill="#9CA3AF" font-family="Inter, Arial, Helvetica, sans-serif">
+    Frontend Engineer · Angular · React · JavaScript
+  </text>
+</svg>
