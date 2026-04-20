@@ -5,12 +5,13 @@ const ToggleTheme = () => {
 
     return (
         <>
-            <label>Toggle Theme</label>
+            <label>
             <input 
                 type="checkbox" 
                 checked={theme === "dark"} 
                 onChange={toggleTheme}
-            />
+            /> Toggle Theme
+            </label>
         </>
     );
 };

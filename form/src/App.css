@@ -48,7 +48,10 @@ select {
   height: 32px;
   padding: 0 8px;
 }
-
+input[type="checkbox"] {
+  width: auto;
+  height: auto;
+}
 .Field {
   position: relative;
   padding-bottom: 24px;
