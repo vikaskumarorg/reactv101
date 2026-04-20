@@ -6,6 +6,18 @@
   align-items: center;
 }
 
+/* Light theme */
+.light-theme {
+  background-color: #e8bcbc;
+  color: #000000;
+}
+
+/* Dark theme */
+.dark-theme {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
 fieldset {
   display: flex;
   width: 480px;
