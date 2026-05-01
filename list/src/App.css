@@ -1,0 +1,51 @@
+
+.product-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 18px;
+  width:fit-content;
+}
+
+.product-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.product-media {
+  flex-shrink: 0;
+}
+
+.circle-image {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  border: 2px solid #e2e8f0;
+}
+
+.product-info h2 {
+  margin: 0 0 6px;
+  font-size: 1.05rem;
+}
+
+.product-info .profession {
+  margin: 0;
+  color: #4a5568;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.product-info .accomplishment {
+  margin: 8px 0 0;
+  color: #718096;
+  line-height: 1.5;
+  }
