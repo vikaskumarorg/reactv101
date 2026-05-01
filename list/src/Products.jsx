@@ -15,7 +15,7 @@ function ProductList() {
     </li>
   ));
 
-  return <ul className="product-list">{personList}</ul>;
+  return <div><h2>Professional</h2><ul className="product-list">{personList}</ul> </div>;
 }
 
 export default ProductList;

@@ -1,11 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import MeetingsByAPI from './MeetingsByAPI';
 import Products from './Products';
+import NestedListRecipies from './NestedListRecipies';
 
 function App() {
   return (
     <div className="App">
-     <Products></Products>
+      <MeetingsByAPI />
+      <div className='inline-flex'>
+      <Products />
+      <NestedListRecipies />
+      </div>
     </div>
   );
 }
