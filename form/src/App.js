@@ -2,6 +2,7 @@ import Form from './ControlledForm';
 import './App.css';
 import { ThemeProvider, useTheme } from './ThemeContaxt';
 import ToggleTheme from './ToggleTheme.js';
+import SelectField from './SelectField.js';
 
 function AppContent() {
   const { theme } = useTheme();
@@ -17,6 +18,7 @@ function AppContent() {
       <h1>Controlled Form</h1>
       <ToggleTheme />
       <Form />
+      <SelectField />
     </div>
   );
 }
