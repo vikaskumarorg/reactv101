@@ -43,3 +43,18 @@ export const recipes = [{
   name: 'Hummus',
   ingredients: ['chickpeas', 'olive oil', 'garlic cloves', 'lemon', 'tahini']
 }];
+
+export const stories = [
+  {
+  id : "Ankit",
+  label : "Ankit's story"
+  },
+    {
+  id : "Vikas",
+  label : "Vikas's story"
+  },
+     {
+  id : "Pawan",
+  label : "Pawan's story"
+  }
+]
