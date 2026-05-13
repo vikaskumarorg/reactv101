@@ -8,6 +8,12 @@ function Effect() {
     if (pRef.current) {
       pRef.current.style.backgroundColor = `#${count.toString(16).padStart(6, '0')}`;
     }
+    return () => {
+        // it exxcute when component unmount or before next effect execute
+      if (pRef.current) {
+        pRef.current.style.backgroundColor = '';
+      }
+    }
   }, [count]);
 
   return (
