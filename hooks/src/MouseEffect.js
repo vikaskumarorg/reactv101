@@ -1,9 +1,11 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, useContext } from "react";
+import { UserContext } from "./UserContext";
 
 const MouseEffect = () => {
   const [mPosition, setMPosition] = useState({ x: 0, y: 0 });
   const bRef = useRef(null)
 
+  const person = useContext(UserContext);
   useEffect(() => {
     const moveElement = (event) => {
       setMPosition({
@@ -33,7 +35,10 @@ const MouseEffect = () => {
   }, []);
 
   return (
-    <>    <div
+    <>  
+    <div>Name - {person.name}</div>  
+    <div>Location - {person.location}</div>
+    <div
     ref={bRef}
       style={{
         width: "100px",
