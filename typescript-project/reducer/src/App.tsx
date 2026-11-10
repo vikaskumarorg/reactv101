@@ -4,6 +4,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import Todo from './reducer/TodoItems'
+import { Counter } from './component/Counter'
+import { Users } from './component/Users'
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -33,10 +36,12 @@ function App() {
 
       <div className="ticks"></div>
 
-     
+     <h5> Counter state Management by Redux toolkit</h5>
+     <Counter></Counter>
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
+    <Users></Users>
+
+
     </>
   )
 }
