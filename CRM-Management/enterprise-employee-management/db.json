@@ -1,0 +1,136 @@
+{
+  "employees": [
+    {
+      "id": "EMP-1001",
+      "firstName": "Olivia",
+      "lastName": "Rhodes",
+      "email": "olivia.rhodes@acme.com",
+      "department": "Engineering",
+      "role": "Engineering Manager",
+      "location": "New York",
+      "status": "Active",
+      "joinedDate": "2021-03-15",
+      "salary": 142000
+    },
+    {
+      "id": "EMP-1002",
+      "firstName": "Ethan",
+      "lastName": "Cole",
+      "email": "ethan.cole@acme.com",
+      "department": "Product",
+      "role": "Product Designer",
+      "location": "Austin",
+      "status": "Active",
+      "joinedDate": "2022-06-20",
+      "salary": 108000
+    },
+    {
+      "id": "EMP-1003",
+      "firstName": "Ava",
+      "lastName": "Patel",
+      "email": "ava.patel@acme.com",
+      "department": "People",
+      "role": "HR Business Partner",
+      "location": "London",
+      "status": "Active",
+      "joinedDate": "2020-11-02",
+      "salary": 96000
+    },
+    {
+      "id": "EMP-1004",
+      "firstName": "Noah",
+      "lastName": "Kim",
+      "email": "noah.kim@acme.com",
+      "department": "Finance",
+      "role": "Financial Analyst",
+      "location": "Singapore",
+      "status": "On Leave",
+      "joinedDate": "2023-01-09",
+      "salary": 89000
+    },
+    {
+      "id": "EMP-1005",
+      "firstName": "Mia",
+      "lastName": "Brooks",
+      "email": "mia.brooks@acme.com",
+      "department": "Engineering",
+      "role": "Senior Software Engineer",
+      "location": "Toronto",
+      "status": "Active",
+      "joinedDate": "2019-08-12",
+      "salary": 132000
+    },
+    {
+      "id": "EMP-1006",
+      "firstName": "Lucas",
+      "lastName": "Martin",
+      "email": "lucas.martin@acme.com",
+      "department": "Sales",
+      "role": "Account Executive",
+      "location": "Chicago",
+      "status": "Active",
+      "joinedDate": "2022-02-28",
+      "salary": 101000
+    },
+    {
+      "id": "EMP-1007",
+      "firstName": "Sophia",
+      "lastName": "Nguyen",
+      "email": "sophia.nguyen@acme.com",
+      "department": "Marketing",
+      "role": "Growth Marketing Lead",
+      "location": "San Francisco",
+      "status": "Active",
+      "joinedDate": "2021-09-06",
+      "salary": 118000
+    },
+    {
+      "id": "EMP-1008",
+      "firstName": "James",
+      "lastName": "Wilson",
+      "email": "james.wilson@acme.com",
+      "department": "Operations",
+      "role": "Operations Manager",
+      "location": "Berlin",
+      "status": "Inactive",
+      "joinedDate": "2018-04-23",
+      "salary": 110000
+    },
+    {
+      "id": "EMP-1009",
+      "firstName": "Isabella",
+      "lastName": "Garcia",
+      "email": "isabella.garcia@acme.com",
+      "department": "Engineering",
+      "role": "QA Engineer",
+      "location": "Remote",
+      "status": "Active",
+      "joinedDate": "2023-07-17",
+      "salary": 94000
+    },
+    {
+      "id": "EMP-1010",
+      "firstName": "Benjamin",
+      "lastName": "Turner",
+      "email": "benjamin.turner@acme.com",
+      "department": "Legal",
+      "role": "Legal Counsel",
+      "location": "New York",
+      "status": "Active",
+      "joinedDate": "2020-05-11",
+      "salary": 155000
+    },
+    {
+      "id": "EMP-1011",
+      "firstName": "Amelia",
+      "lastName": "Scott",
+      "email": "amelia.scott@acme.com",
+      "department": "Customer Success",
+      "role": "Customer Success Lead",
+      "location": "Dublin",
+      "status": "Active",
+      "joinedDate": "2022-10-03",
+      "salary": 99000
+    }
+  ]
+}
